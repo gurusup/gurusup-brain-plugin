@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gurusup-brain",
+  "version": "0.1.0",
+  "description": "GuruSup Brain: your company's memory in your AI. Search decisions, people, customers and projects across every connected source.",
+  "author": { "name": "GuruSup", "url": "https://gurusup.com" },
+  "homepage": "https://gurusup.com/brain/mcp",
+  "repository": "https://github.com/gurusup/gurusup-brain-plugin",
+  "license": "MIT",
+  "keywords": ["company-memory", "knowledge", "search", "slack", "hubspot", "notion"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GuruSup Brain",
+        "shortDescription": "Your company's memory, inside ChatGPT",
+        "longDescription": "Ask about customers, projects, people and decisions. GuruSup Brain answers from everything your team has connected, such as Slack, HubSpot and Notion, and shows the sources behind each answer. You only see what your account can see.",
+        "developerName": "GuruSup",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://gurusup.com/brain/mcp",
+        "privacyPolicyURL": "https://gurusup.com/privacy",
+        "defaultPrompt": [
+          "Prep me for my meeting with Acme tomorrow.",
+          "Why did we change the onboarding flow, and who decided it?"
+        ],
+        "brandColor": "#2ECF8F",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

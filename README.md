@@ -21,7 +21,11 @@ The plugin runs no local code. Claude calls the Brain MCP server at `https://mcp
 |------|------|
 | `.claude-plugin/plugin.json` | Plugin manifest |
 | `.claude-plugin/marketplace.json` | Marketplace entry, so the repo installs directly |
-| `.mcp.json` | Brain MCP server, `https://mcp.brain.gurusup.com/mcp` |
+| `.mcp.json` | Brain MCP server for Claude, `https://mcp.brain.gurusup.com/mcp` |
+| `plugin.json`, `mcp.json` | Same plugin in the [Agent Plugins](https://agent-plugins.org) format, for ChatGPT and other clients |
+| `assets/logo.png` | Logo shown in the directories |
 | `skills/using-brain/` | Check Brain first, follow the `init` contract |
 
-Validate after changes: `claude plugin validate .`
+Validate after changes: `claude plugin validate .`. Keep `version` in `.claude-plugin/plugin.json` and `plugin.json` in sync.
+
+Full docs: https://gurusup.com/brain/mcp
