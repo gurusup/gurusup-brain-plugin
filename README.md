@@ -13,7 +13,7 @@ The first Brain call opens a browser to sign in. If you already added the Brain 
 
 ## What it sends and where
 
-The plugin runs no local code. Claude calls the Brain MCP server at `https://mcp.brain.gurusup.com/mcp`, run by GuruSup, sending the questions and search terms it needs to answer you. You sign in with your GuruSup Brain account through OAuth, and the server only returns what that account is allowed to see. You need a GuruSup Brain account to use it. Privacy policy: https://gurusup.com/privacy#brain
+The plugin runs no local code. Claude calls the Brain MCP server, run by GuruSup, sending the questions and search terms it needs to answer you. You sign in with your GuruSup Brain account through OAuth, and the server only returns what that account is allowed to see. You need a GuruSup Brain account to use it. Privacy policy: https://gurusup.com/privacy#brain
 
 ## Contents
 
