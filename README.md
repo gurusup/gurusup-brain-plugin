@@ -9,7 +9,7 @@ Brings GuruSup Brain, your company's memory, into Claude. It bundles the Brain M
 /plugin install gurusup-brain@gurusup
 ```
 
-The first Brain call opens a browser to sign in. If you already added the Brain MCP by hand (`claude mcp remove gurusup`), remove it first so the tools don't show up twice.
+The first Brain call opens a browser to sign in. If you already added the Brain MCP by hand, remove it first (`claude mcp remove gurusup`) so the tools don't show up twice.
 
 ## What it sends and where
 
@@ -23,7 +23,6 @@ The plugin runs no local code. Claude calls the Brain MCP server at `https://mcp
 | `.claude-plugin/marketplace.json` | Marketplace entry, so the repo installs directly |
 | `.mcp.json` | Brain MCP server for Claude, `https://mcp.brain.gurusup.com/mcp` |
 | `plugin.json`, `mcp.json` | Same plugin in the [Agent Plugins](https://agent-plugins.org) format, for ChatGPT and other clients |
-| `assets/logo.png` | Logo shown in the directories |
 | `skills/using-brain/` | Check Brain first, follow the `init` contract |
 
 Validate after changes: `claude plugin validate .`. Keep `version` in `.claude-plugin/plugin.json` and `plugin.json` in sync.
