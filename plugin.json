@@ -18,7 +18,7 @@
         "category": "Productivity",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://gurusup.com/brain/mcp",
-        "privacyPolicyURL": "https://gurusup.com/privacy",
+        "privacyPolicyURL": "https://gurusup.com/privacy#brain",
         "defaultPrompt": [
           "Prep me for my meeting with Acme tomorrow.",
           "Why did we change the onboarding flow, and who decided it?"
