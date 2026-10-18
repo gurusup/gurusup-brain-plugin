@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.gurusup/brain",
-  "title": "GuruSup Brain",
+  "title": "Gurusup Brain",
   "description": "Your company brain: search decisions, people, customers and projects across connected sources.",
   "websiteUrl": "https://gurusup.com/brain/mcp",
   "repository": {
