@@ -1,9 +1,9 @@
 {
   "name": "gurusup-brain",
-  "description": "GuruSup Brain: your company's memory in Claude. Search decisions, people, customers and projects across every connected source.",
-  "version": "0.1.1",
+  "description": "Gurusup: your company's memory in Claude. Search decisions, people, customers and projects across every connected source.",
+  "version": "0.2.0",
   "author": {
-    "name": "GuruSup",
+    "name": "Gurusup",
     "url": "https://gurusup.com"
   },
   "homepage": "https://gurusup.com/brain/mcp",
