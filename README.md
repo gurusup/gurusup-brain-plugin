@@ -1,6 +1,6 @@
-# GuruSup Brain plugin
+# Gurusup plugin
 
-Brings GuruSup Brain, your company's memory, into Claude. It bundles the Brain MCP server (OAuth sign-in with your GuruSup account) and a skill that tells Claude to check Brain first for anything about your company.
+Brings Gurusup, your company's memory, into Claude. It bundles the Gurusup MCP server (OAuth sign-in with your Gurusup account) and a skill that tells Claude to check Gurusup first for anything about your company.
 
 ## Install (Claude Code)
 
@@ -9,11 +9,11 @@ Brings GuruSup Brain, your company's memory, into Claude. It bundles the Brain M
 /plugin install gurusup-brain@gurusup
 ```
 
-The first Brain call opens a browser to sign in. If you already added the Brain MCP by hand, remove it first (`claude mcp remove gurusup`) so the tools don't show up twice.
+The first Gurusup call opens a browser to sign in. If you already added the Gurusup MCP by hand, remove it first (`claude mcp remove gurusup`) so the tools don't show up twice.
 
 ## What it sends and where
 
-The plugin runs no local code. Claude calls the Brain MCP server, run by GuruSup, sending the questions and search terms it needs to answer you. You sign in with your GuruSup Brain account through OAuth, and the server only returns what that account is allowed to see. You need a GuruSup Brain account to use it. Privacy policy: https://gurusup.com/privacy#brain
+The plugin runs no local code. Claude calls the Gurusup MCP server, run by Gurusup, sending the questions and search terms it needs to answer you. You sign in with your Gurusup account through OAuth, and the server only returns what that account is allowed to see. You need a Gurusup account to use it. Privacy policy: https://gurusup.com/privacy#brain
 
 ## Contents
 
@@ -21,9 +21,9 @@ The plugin runs no local code. Claude calls the Brain MCP server, run by GuruSup
 |------|------|
 | `.claude-plugin/plugin.json` | Plugin manifest |
 | `.claude-plugin/marketplace.json` | Marketplace entry, so the repo installs directly |
-| `.mcp.json` | Brain MCP server for Claude, `https://mcp.brain.gurusup.com/mcp` |
+| `.mcp.json` | Gurusup MCP server for Claude, `https://mcp.brain.gurusup.com/mcp` |
 | `plugin.json`, `mcp.json` | Same plugin in the [Agent Plugins](https://agent-plugins.org) format, for ChatGPT and other clients |
-| `skills/using-brain/` | Check Brain first, follow the `init` contract |
+| `skills/using-brain/` | Check Gurusup first, follow the `init` contract |
 
 Validate after changes: `claude plugin validate .`. Keep `version` in `.claude-plugin/plugin.json` and `plugin.json` in sync.
 

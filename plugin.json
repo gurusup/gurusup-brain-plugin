@@ -1,9 +1,9 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "gurusup-brain",
-  "version": "0.1.0",
-  "description": "GuruSup Brain: your company's memory in your AI. Search decisions, people, customers and projects across every connected source.",
-  "author": { "name": "GuruSup", "url": "https://gurusup.com" },
+  "version": "0.2.0",
+  "description": "Gurusup: your company's memory in your AI. Search decisions, people, customers and projects across every connected source.",
+  "author": { "name": "Gurusup", "url": "https://gurusup.com" },
   "homepage": "https://gurusup.com/brain/mcp",
   "repository": "https://github.com/gurusup/gurusup-brain-plugin",
   "license": "MIT",
@@ -11,10 +11,10 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "GuruSup Brain",
+        "displayName": "Gurusup",
         "shortDescription": "Your company brain",
-        "longDescription": "GuruSup Brain is your company brain inside ChatGPT. It connects your team's knowledge from Slack, HubSpot, Notion and the documents you upload, and answers questions about customers, projects, people and decisions with the sources behind each answer.\n\nUse it to prep for a customer meeting, catch up on a project you missed, find out why something was decided and who decided it, or get a new hire up to speed without digging through old threads.\n\nAnswers respect your permissions: you only see what your GuruSup account can see. You need a GuruSup Brain account to use it.",
-        "developerName": "GuruSup",
+        "longDescription": "Gurusup is your company brain inside ChatGPT. It connects your team's knowledge from Slack, HubSpot, Notion and the documents you upload, and answers questions about customers, projects, people and decisions with the sources behind each answer.\n\nUse it to prep for a customer meeting, catch up on a project you missed, find out why something was decided and who decided it, or get a new hire up to speed without digging through old threads.\n\nAnswers respect your permissions: you only see what your Gurusup account can see. You need a Gurusup account to use it.",
+        "developerName": "Gurusup",
         "category": "Productivity",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://gurusup.com/brain/mcp",
