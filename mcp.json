@@ -3,7 +3,7 @@
   "mcpServers": {
     "gurusup-brain": {
       "type": "streamable-http",
-      "url": "https://mcp.brain.gurusup.com/mcp",
+      "url": "https://mcp.brain.gurusup.com/mcp/directory",
       "extensions": {
         "com.openai": {
           "auth": {
