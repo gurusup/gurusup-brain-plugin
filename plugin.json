@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "gurusup-brain",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Gurusup: your company's memory in your AI. Search decisions, people, customers and projects across every connected source.",
   "author": { "name": "Gurusup", "url": "https://gurusup.com" },
   "homepage": "https://gurusup.com/brain/mcp",
