@@ -1,5 +1,5 @@
 ---
-name: using-brain
+name: using-gurusup
 description: Use for questions about the user's company - customers, projects, people, decisions, meetings, policies, sales, support, roadmap or company history - that Gurusup can answer from the company's connected sources.
 ---
 

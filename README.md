@@ -23,7 +23,11 @@ The plugin runs no local code. Claude calls the Gurusup MCP server, run by Gurus
 | `.claude-plugin/marketplace.json` | Marketplace entry, so the repo installs directly |
 | `.mcp.json` | Gurusup MCP server for Claude, `https://mcp.brain.gurusup.com/mcp` |
 | `plugin.json`, `mcp.json` | Same plugin in the [Agent Plugins](https://agent-plugins.org) format, for ChatGPT and other clients |
-| `skills/using-brain/` | Check Gurusup first, follow the `init` contract |
+| `skills/using-gurusup/` | Check Gurusup first, follow the `init` contract |
+| `skills/creating-gurusup-agents/` | Create or change agents: process, then skill, then agent |
+| `skills/setting-up-gurusup/` | Getting started and "set it up for me" |
+| `skills/connecting-apps-and-sources/` | Connect sources (knowledge) and apps (actions) |
+| `skills/writing-gurusup-skills/` | Create or update company skills without duplicates |
 
 Validate after changes: `claude plugin validate .`. Keep `version` in `.claude-plugin/plugin.json` and `plugin.json` in sync.
 
