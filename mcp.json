@@ -3,7 +3,19 @@
   "mcpServers": {
     "gurusup-brain": {
       "type": "streamable-http",
-      "url": "https://mcp.brain.gurusup.com/mcp"
+      "url": "https://mcp.brain.gurusup.com/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": { "mode": "dcr" },
+            "authorizationServerBase": "https://auth.os.gurusup.com",
+            "authorizationUrl": "https://auth.os.gurusup.com/oauth2/authorize",
+            "tokenUrl": "https://mcp.brain.gurusup.com/oauth2/token",
+            "registrationUrl": "https://mcp.brain.gurusup.com/oauth2/register"
+          }
+        }
+      }
     }
   }
 }
