@@ -1,6 +1,6 @@
 # Gurusup plugin
 
-Brings Gurusup, your company's memory, into Claude. It bundles the Gurusup MCP server (OAuth sign-in with your Gurusup account) and a skill that tells Claude to check Gurusup first for anything about your company.
+Brings Gurusup, your company's memory, into Claude. It bundles the Gurusup MCP server (OAuth sign-in with your Gurusup account) and Gurusup's skills, which tell Claude when to use Gurusup and which guide to read before acting.
 
 ## Install (Claude Code)
 
@@ -23,11 +23,19 @@ The plugin runs no local code. Claude calls the Gurusup MCP server, run by Gurus
 | `.claude-plugin/marketplace.json` | Marketplace entry, so the repo installs directly |
 | `.mcp.json` | Gurusup MCP server for Claude, `https://mcp.brain.gurusup.com/mcp` |
 | `plugin.json`, `mcp.json` | Same plugin in the [Agent Plugins](https://agent-plugins.org) format, for ChatGPT and other clients |
-| `skills/using-gurusup/` | Check Gurusup first, follow the `init` contract |
-| `skills/creating-gurusup-agents/` | Create or change agents: process, then skill, then agent |
-| `skills/setting-up-gurusup/` | Getting started and "set it up for me" |
-| `skills/connecting-apps-and-sources/` | Connect sources (knowledge) and apps (actions) |
-| `skills/writing-gurusup-skills/` | Create or update company skills without duplicates |
+| `skills/asking-teammates-with-gurusup/` | Asking teammates with Gurusup |
+| `skills/choosing-gurusup-source-scope/` | Choosing what Gurusup learns from a source |
+| `skills/connecting-gurusup-apps/` | Connecting Gurusup apps |
+| `skills/connecting-gurusup-sources/` | Connecting Gurusup sources |
+| `skills/creating-gurusup-agents/` | Creating Gurusup agents |
+| `skills/managing-gurusup-memory/` | Managing Gurusup memory |
+| `skills/managing-gurusup-organization/` | Managing your Gurusup organization |
+| `skills/setting-up-gurusup/` | Setting up Gurusup |
+| `skills/using-gurusup/` | Using Gurusup |
+| `skills/working-with-gurusup-agents/` | Working with Gurusup agents |
+| `skills/writing-gurusup-skills/` | Writing Gurusup skills |
+
+The skills are generated from the skills the Gurusup MCP serves (`learn`): each one keeps the same name and trigger, its hard rules, and points to the full guide. Don't edit them by hand; changes arrive as a sync PR. Bump the version in a separate PR.
 
 Validate after changes: `claude plugin validate .`. Keep `version` in `.claude-plugin/plugin.json` and `plugin.json` in sync.
 
