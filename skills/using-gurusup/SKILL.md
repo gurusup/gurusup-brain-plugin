@@ -6,7 +6,7 @@ description: "Use for questions about the user's company (customers, projects, p
 
 Gurusup holds the company's memory, unified across its connected sources. Answer company questions from what Gurusup returns, and use the other Gurusup skills to set it up and operate it.
 
-Before acting, read the full skill from Gurusup: call the Gurusup `learn` tool with `topic="using-gurusup"` and follow it. It is the source of truth and changes as Gurusup does. If `learn` does not offer it, it is not available for this organization: say so instead of improvising.
+Call the Gurusup `init` tool first and follow the contract it returns. To find the Gurusup guide for a task, call `learn` without a topic and read the one that covers it.
 
 ## Hard rules
 

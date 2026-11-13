@@ -6,7 +6,7 @@ description: "Use when an organization admin wants to choose or change which Lin
 
 Scope narrows what Gurusup keeps learning from a connected Linear or Attio source. Other apps choose what they read in their own way (`connecting-gurusup-sources`).
 
-Before acting, read the full skill from Gurusup: call the Gurusup `learn` tool with `topic="choosing-gurusup-source-scope"` and follow it. It is the source of truth and changes as Gurusup does. If `learn` does not offer it, it is not available for this organization: say so instead of improvising.
+Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="choosing-gurusup-source-scope"`. If it returns a list of topics instead of the guide, call `learn` with `topic="source-scope"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If neither returns a guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 
 ## Hard rules
 

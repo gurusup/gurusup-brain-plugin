@@ -6,7 +6,7 @@ description: "Use when the user wants to talk to an agent, asks what their agent
 
 Talk to agents, follow their work, and answer the questions and approvals they send the person.
 
-Before acting, read the full skill from Gurusup: call the Gurusup `learn` tool with `topic="working-with-gurusup-agents"` and follow it. It is the source of truth and changes as Gurusup does. If `learn` does not offer it, it is not available for this organization: say so instead of improvising.
+Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="working-with-gurusup-agents"`. If it returns a list of topics instead of the guide, call `learn` with `topic="monitor-agents"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If neither returns a guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 
 ## Hard rules
 

@@ -6,7 +6,7 @@ description: "Use when the user wants Gurusup to learn from a tool (Slack, Notio
 
 Sources supply knowledge. Apps separately authorize actions (`connecting-gurusup-apps`). Your assistant's own connectors do not grant Gurusup access: a source is connected only on Gurusup's connection page.
 
-Before acting, read the full skill from Gurusup: call the Gurusup `learn` tool with `topic="connecting-gurusup-sources"` and follow it. It is the source of truth and changes as Gurusup does. If `learn` does not offer it, it is not available for this organization: say so instead of improvising.
+Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="connecting-gurusup-sources"`. If it returns a list of topics instead of the guide, call `learn` with `topic="knowledge"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If neither returns a guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 
 ## Hard rules
 
