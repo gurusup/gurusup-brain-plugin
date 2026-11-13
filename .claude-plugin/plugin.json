@@ -1,7 +1,7 @@
 {
   "name": "gurusup-brain",
   "description": "Gurusup: your company's memory in Claude. Search decisions, people, customers and projects across every connected source.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Gurusup",
     "url": "https://gurusup.com"
