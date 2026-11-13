@@ -6,7 +6,7 @@ description: "Use when a company fact is still missing after searching memory an
 
 Contacts describe who knows which topics and how Gurusup can reach them. When company memory cannot answer a necessary fact, Gurusup can ask the right teammate on the person's behalf.
 
-Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="asking-teammates-with-gurusup"`. If it returns a list of topics instead of the guide, call `learn` with `topic="organization"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If neither returns a guide, this part of Gurusup is not available for this organization: say so instead of improvising.
+Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="asking-teammates-with-gurusup"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If it returns a list of topics instead of the guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 
 ## Hard rules
 

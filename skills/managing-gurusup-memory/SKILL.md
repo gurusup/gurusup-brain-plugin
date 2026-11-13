@@ -6,7 +6,7 @@ description: "Use when the user asks what Gurusup has learned, whether its memor
 
 Gurusup's memory is what it has learned from the organization's sources, notes and decisions. This skill covers building it, checking it, saving facts into it, resolving conflicting facts and reading its activity.
 
-Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="managing-gurusup-memory"`. If it returns a list of topics instead of the guide, call `learn` with `topic="memory-build"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If neither returns a guide, this part of Gurusup is not available for this organization: say so instead of improvising.
+Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="managing-gurusup-memory"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If it returns a list of topics instead of the guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 
 ## Hard rules
 

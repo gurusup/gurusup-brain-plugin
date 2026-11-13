@@ -6,7 +6,7 @@ description: "Use when the user wants to save how their team does something as a
 
 A company skill holds one process: its steps, its source of truth and when to act alone versus ask first. Skills are shared with the organization and used by assistants and agents.
 
-Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="writing-gurusup-skills"`. If it returns a list of topics instead of the guide, call `learn` with `topic="skills"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If neither returns a guide, this part of Gurusup is not available for this organization: say so instead of improvising.
+Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="writing-gurusup-skills"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If it returns a list of topics instead of the guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 
 ## Hard rules
 

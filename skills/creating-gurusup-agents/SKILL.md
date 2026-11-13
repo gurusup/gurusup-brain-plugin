@@ -6,7 +6,7 @@ description: "Use when the user wants to create, change, organize or review a Gu
 
 An agent is a teammate for one area, such as Sales. It runs the processes written in its assigned skills, with the apps and knowledge it is given. Routines make it act on a schedule.
 
-Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="creating-gurusup-agents"`. If it returns a list of topics instead of the guide, call `learn` with `topic="create-agents"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If neither returns a guide, this part of Gurusup is not available for this organization: say so instead of improvising.
+Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="creating-gurusup-agents"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If it returns a list of topics instead of the guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 
 ## Hard rules
 

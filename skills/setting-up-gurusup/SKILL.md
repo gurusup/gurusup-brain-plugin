@@ -6,7 +6,7 @@ description: "Use when the user is getting started with Gurusup or asks to set i
 
 Set Gurusup up from evidence about the person's real work: audit read-only, recommend the 3 processes that save the most time, then build the first one.
 
-Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="setting-up-gurusup"`. If it returns a list of topics instead of the guide, call `learn` with `topic="getting-started"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If neither returns a guide, this part of Gurusup is not available for this organization: say so instead of improvising.
+Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="setting-up-gurusup"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If it returns a list of topics instead of the guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 
 ## Hard rules
 
