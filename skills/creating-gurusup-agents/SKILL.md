@@ -15,4 +15,5 @@ Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool w
 - Restate the agreed work in one short paragraph and get one confirmation before `agents.create` or `agents.update`.
 - Test a new goal with a real example before saving it. Skip the test only when the person explicitly asks. Only the owner can run the test; if someone else edits a shared agent's goal, suggest the owner tests it, and save untested only if the person explicitly chooses to.
 - Routines are created paused. Never activate one without a test the person reviewed.
+- Try a process in chat with the agent before creating its routine, and iterate an existing routine with `jobs.update`.
 - Ask before using private assistant memory, and get explicit consent before sharing private memories or conversations with the organization.
