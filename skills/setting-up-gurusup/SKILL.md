@@ -1,10 +1,17 @@
 ---
 name: setting-up-gurusup
-description: Use when the user is getting started with Gurusup or asks to set it up for them - for example "set up Gurusup", "what should Gurusup do for me" or "help me get started".
+description: "Use when the user is getting started with Gurusup or asks to set it up for them (\"set up Gurusup\", \"what should Gurusup do for me\", \"help me get started\"), OR when you are about to call setup.status for onboarding. Recommends useful processes, skills and memory, then a reviewed agent."
 ---
-
 # Setting up Gurusup
 
-Call the Gurusup `learn` tool with `topic="getting-started"` and follow that guide. It explains how to review what the user already has, recommend the most useful processes with evidence, and decide where to start.
+Set Gurusup up from evidence about the person's real work: audit read-only, recommend the 3 processes that save the most time, then build the first one.
 
-Ask before reading the user's own assistant memory or past conversations, and confirm before changing anything in their organization.
+Before acting, read the full skill from Gurusup: call the Gurusup `learn` tool with `topic="setting-up-gurusup"` and follow it. It is the source of truth and changes as Gurusup does. If `learn` does not offer it, it is not available for this organization: say so instead of improvising.
+
+## Hard rules
+
+- The audit is read-only. Do not write or connect anything during the audit. Never create agents, routines or connections during the audit.
+- Ask permission before reviewing your own memory or past conversations. Never share assistant memory or conversations with the organization without consent.
+- Separate evidence from assumptions, including time estimates. Never invent processes to fill the list.
+- Never ask "what do you want to automate?" or "if you have a task in mind". Recommend, then ask for confirmation.
+- Show dates, schedules and times in the person's time zone.
