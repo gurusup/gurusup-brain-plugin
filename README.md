@@ -35,7 +35,7 @@ The plugin runs no local code. Claude calls the Gurusup MCP server, run by Gurus
 | `skills/working-with-gurusup-agents/` | Working with Gurusup agents |
 | `skills/writing-gurusup-skills/` | Writing Gurusup skills |
 
-The skills are generated from the skills the Gurusup MCP serves (`learn`): each one keeps the same name and trigger, its hard rules, and points to the full guide. Don't edit them by hand; changes arrive as a sync PR. Bump the version in a separate PR.
+The skills are generated from the skills the Gurusup MCP serves (`learn`): each one keeps the same name and trigger, its hard rules, and points to the full guide. Don't edit them by hand; changes arrive as an automatic sync PR, which never bumps the version. Releases bump `version` in their own PR.
 
 Validate after changes: `claude plugin validate .`. Keep `version` in `.claude-plugin/plugin.json` and `plugin.json` in sync.
 
