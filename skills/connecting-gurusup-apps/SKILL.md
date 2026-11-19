@@ -4,7 +4,7 @@ description: "Use when the user wants Gurusup or one of its agents to act in an 
 ---
 # Connecting Gurusup apps
 
-Apps let agents act: send, create or update things in other tools. Browser use covers websites without an app. They are separate from sources, which only supply knowledge. Each account has its actions set to run automatically, need approval, or be blocked.
+Apps let agents act: send, create or update things in other tools. Browser use covers websites without an app. They are separate from sources, which only supply knowledge. Reads run automatically. Writes require approval unless the person saved a permission for that agent, account and action. An account can block an action for every agent.
 
 Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool with `topic="connecting-gurusup-apps"`. Follow the guide it returns: it is the source of truth and changes as Gurusup does. If it returns a list of topics instead of the guide, this part of Gurusup is not available for this organization: say so instead of improvising.
 

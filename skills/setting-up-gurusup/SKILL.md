@@ -11,7 +11,7 @@ Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool w
 ## Hard rules
 
 - The audit is read-only. Do not write or connect anything during the audit. Never create agents, routines or connections during the audit.
-- Ask permission before reviewing your own memory or past conversations. Never share assistant memory or conversations with the organization without consent.
+- Use the context the person supplies for this task and authorized Gurusup sources. Keep private material out of shared drafts.
 - Separate evidence from assumptions, including time estimates. Never invent processes to fill the list.
 - Never ask "what do you want to automate?" or "if you have a task in mind". Recommend, then ask for confirmation.
 - Show dates, schedules and times in the person's time zone.

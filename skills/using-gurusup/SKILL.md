@@ -1,6 +1,6 @@
 ---
 name: using-gurusup
-description: "Use for questions about the user's company (customers, projects, people, decisions, meetings, policies, sales, support, roadmap or company history) that Gurusup can answer from the company's connected sources, OR when you are about to call ask_company_memory, search_company_memory or retrieve_company_memory, OR when you are not sure which Gurusup skill covers a request. Lists every Gurusup skill."
+description: "Use for company questions that Gurusup can answer from connected sources, when calling ask_company_memory, search_company_memory or retrieve_company_memory, or to find the skill for a request. If Agents access is off, use it to stop current work, pause existing routines or disconnect agent accounts."
 ---
 # Using Gurusup
 
