@@ -1,6 +1,6 @@
 ---
 name: working-with-gurusup-agents
-description: "Use when the user wants to talk to an agent, asks what their agents are doing or what is waiting for them, wants to answer an agent's question or approval, decide a setup card, follow or stop a run, or see or undo an agent's changes, OR when you are about to call conversations.send, conversations.answer, actions.decide, inbox.list, pending_work.list, runs.trace, runs.cancel or agents.put_back."
+description: "Use when the user wants to talk to an agent, asks what their agents are doing or what is waiting for them, wants to answer an agent's question or approval, decide a setup card, follow or stop a run, or see or undo an agent's changes, connect its Slack bot, or choose update destinations, OR when you are about to call conversations.send, conversations.answer, actions.decide, inbox.list, pending_work.list, agents.operations, runs.trace, runs.cancel or agents.put_back."
 ---
 # Working with Gurusup agents
 
