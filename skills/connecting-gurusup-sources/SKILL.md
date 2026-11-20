@@ -12,6 +12,6 @@ Before acting, read the full guide from Gurusup: call the Gurusup `learn` tool w
 
 - Credentials, tokens and API keys are entered only on Gurusup's connection page. Never ask for them in the chat.
 - A source learns from the moment it is connected. Connecting never imports older history; that is a separate import the person agrees to.
-- Confirm before anything that removes or narrows: turning an app off for the organization disconnects every member's account of that app; switching off areas in Factorial, Sesame or Zernio, or leaving folders out of a Drive selection, removes that content from memory; disconnecting stops learning.
+- Confirm before anything that removes or narrows: turning off "let members connect their own account" for an app disconnects every member's own account of that app (organization connections stay); switching off areas in Factorial, Sesame or Zernio, or leaving folders out of a Drive selection, removes that content from memory; disconnecting stops learning.
 - Confirm who will read a source before changing its access.
 - Only report a source as connected when its status is `active` or `connected`.
