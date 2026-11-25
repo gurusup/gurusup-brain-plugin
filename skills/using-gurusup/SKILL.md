@@ -1,6 +1,6 @@
 ---
 name: using-gurusup
-description: "Use for company questions that Gurusup can answer from connected sources, when calling ask_company_memory, search_company_memory or retrieve_company_memory, or to find the skill for a request. If Agents access is off, use it to stop current work, pause existing routines or disconnect agent accounts."
+description: "Use for company questions that Gurusup can answer from connected sources, when calling ask_company_memory, search_company_memory or retrieve_company_memory, or to find the skill for a request. If Agents access is off, use it to join the Agents waitlist, stop current work, pause existing routines or disconnect agent accounts."
 ---
 # Using Gurusup
 

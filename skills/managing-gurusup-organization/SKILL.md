@@ -1,6 +1,6 @@
 ---
 name: managing-gurusup-organization
-description: "Use when the user asks about members, invitations, roles, who can read which knowledge categories, the plan or usage, organization settings or setup progress, OR when you are about to call members.set_role, members.remove, members.set_categories, permissions.set_category, invitations.create, invitations.cancel, organization.rename or organization.set_timezone."
+description: "Use when the user asks about members, invitations, roles, who can read which knowledge categories, the plan or usage, organization settings or setup progress, OR when you are about to call members.set_role, members.remove, members.set_categories, permissions.set_category, invitations.create, invitations.cancel, organization.rename, organization.set_timezone, value.update_settings, value.create_kind, value.update_kind, value.decide_kind, value.assign_routine or value.classify_now. Also when the user asks about the value delivered, the time and cost saved or the return on what the organization pays (value.summary, value.kinds)."
 ---
 # Managing your Gurusup organization
 
